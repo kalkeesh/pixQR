@@ -58,7 +58,7 @@ st.image("title.png", use_column_width=True)
 st_lottie(lottie_download, height=300, key="continue_animation")
 
 qr_payload = st.text_input("Enter the text for the QR code:")
-size = st.slider("Select size of the QR code:", min_value=100, max_value=1024, value=300)
+size = st.slider("Select quality of the QR code in KB:", min_value=100, max_value=1024, value=300)
 color = st.color_picker("Pick a color for the QR code:", "#000000")
 bg_file = st.file_uploader("Upload a background image for the QR code:", type=["png", "jpg", "jpeg"])
 
