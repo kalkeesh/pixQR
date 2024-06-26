@@ -127,7 +127,7 @@ if st.button("Generate png QR"):
             st.markdown(
                 f"""
                 <div style="display: flex; justify-content: center;">
-                    <img src="data:image/png;base64,{base64_img_transparent}" alt="Generated QR Code" width="{size}"/>
+                    <img src="data:image/png;base64,{base64_img_transparent}" alt="Generated QR Code" width=300/>
                 </div>
                 """,
                 unsafe_allow_html=True
