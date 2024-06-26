@@ -11,9 +11,9 @@ if st.button("@", key="info_button"):
         st.write("""
                  Create a QR CODE of your own...!!
         - Enter the required text or link and
-                :Click on "Generate qr" to get a basic qr code.
-                :Select a 4:4 image to be as a background for qr then click on "Generate qr".
-                :Click on png qr to get a png form of qr code.
+                -Click on "Generate qr" to get a basic qr code.
+                -Select a 4:4 image to be as a background for qr then click on "Generate qr".
+                -Click on png qr to get a png form of qr code.
         - Hope this was helpful..!
                  """)
 
