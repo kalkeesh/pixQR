@@ -11,11 +11,12 @@ if st.button("@", key="info_button"):
         st.write("""
                  Create a QR CODE of your own...!!
         - Enter the required text or link and
-                -Click on "Generate qr" to get a basic qr code.
-                -Select a 4:4 image to be as a background for qr then click on "Generate qr".
-                -Click on png qr to get a png form of qr code.
+                - Click on "Generate QR" to get a basic QR code.
+                - Select a 4:4 image to be used as a background for the QR code, then click on "Generate QR".
+                - Click on "PNG QR" to get a PNG form of the QR code.
         - Hope this was helpful..!
                  """)
+
 
 def load_lottiefile(filepath: str):
     with open(filepath, "r") as f:
