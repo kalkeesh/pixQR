@@ -6,7 +6,7 @@ from PIL import Image
 from streamlit_lottie import st_lottie
 import json
 
-if st.button("@", key="info_button"):
+if st.button("ℹ️", key="info_button"):
     with st.expander("info"):
         st.write("""
 Create a QR CODE of your own...!!
