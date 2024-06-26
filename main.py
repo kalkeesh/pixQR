@@ -9,13 +9,14 @@ import json
 if st.button("@", key="info_button"):
     with st.expander("info"):
         st.write("""
-                 Create a QR CODE of your own...!!
-        - Enter the required text or link and
-                - Click on "Generate QR" to get a basic QR code.
-                - Select a 4:4 image to be used as a background for the QR code, then click on "Generate QR".
-                - Click on "PNG QR" to get a PNG form of the QR code.
-        - Hope this was helpful..!
-                 """)
+Create a QR CODE of your own...!!
+- Enter the required text or link and
+    - Click on "Generate QR" to get a basic QR code.
+    - Select a 4:4 image to be used as a background for the QR code, then click on "Generate QR".
+    - Click on "PNG QR" to get a PNG form of the QR code.
+- Hope this was helpful..!
+        """)
+
 
 
 def load_lottiefile(filepath: str):
