@@ -11,6 +11,7 @@ if st.button("ℹ️", key="info_button"):
         st.write("""
 Create a QR CODE of your own...!!
 - Enter the required text or link and
+    - Click on the colour pallete to select the QR code colour(befault colour is black).
     - Click on "Generate QR" to get a basic QR code.
     - Select a 4:4 image to be used as a background for the QR code, then click on "Generate QR".
     - Click on "PNG QR" to get a PNG form of the QR code.
