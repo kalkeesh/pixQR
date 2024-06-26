@@ -52,9 +52,8 @@ def generate_qr_code(payload: str, size: int, color: str, background_img: Image 
 
 
 
-# st.title("QR Code Generator")
+st.title("QR Code Generator")
 # st.image("title.png", use_column_width=True)
-st.image("title.png",use_cloumn_width=True)
 st_lottie(lottie_download, height=300, key="continue_animation")
 
 qr_payload = st.text_input("Enter the text for the QR code:")
