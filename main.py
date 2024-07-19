@@ -6,7 +6,7 @@ from PIL import Image
 from streamlit_lottie import st_lottie
 import json
 
-st.set_page_config(page_title="pixQR", page_icon = "🤐", layout = "wide", initial_sidebar_state = "auto")
+st.set_page_config(page_title="pixQR", page_icon = "🤐", layout = "centered", initial_sidebar_state = "auto")
 
 if st.button("ℹ️", key="info_button"):
     with st.expander("info"):
